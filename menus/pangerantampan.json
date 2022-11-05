@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle pangerantampan",
+        "command": "pangerantampan:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pangerantampan",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "pangerantampan:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
